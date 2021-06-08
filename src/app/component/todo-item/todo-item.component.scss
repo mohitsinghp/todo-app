@@ -1,0 +1,17 @@
+section {
+    display: flex;
+}
+
+span {
+    width: 300px;
+    overflow-wrap: break-word;
+    padding: 0 10px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.delete {
+    height: fit-content;
+}

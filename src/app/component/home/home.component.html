@@ -1,0 +1,6 @@
+<section class="container">
+    <h2 class="error">{{errMsg}}</h2>
+
+    <input class="todo-text" type="text" [(ngModel)]="todoTitle" (keyup.enter)="saveToDoItem()"/>
+</section>
+<app-todo-list></app-todo-list>

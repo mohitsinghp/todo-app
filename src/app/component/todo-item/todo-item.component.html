@@ -1,0 +1,6 @@
+<section>
+    <input class="checkbox" type="checkbox" [checked]="todo?.checked"
+    (click)="strikeTodo($event)"/>
+    <span [ngClass]="todo.checked ? 'strike': ''">{{ todo?.title }}</span>
+    <button class="delete" (click)="deleteTodo()">Delete</button>
+</section>

@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+}
+
+.todo-text {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.error {
+    color: RED;
+    font-weight: 600;
+    font-size: 15px;
+}
